@@ -1,0 +1,41 @@
+CMPE12L Sec_?? Lab6 Shifters & Caesar Cipher
+UCSC Winter 2016
+*********************************************************************
+Names: 
+login@ucsc
+
+Grading Criteria
+
+Basic specifications:
+Does your code ...?
+
+
+___ (10 pts)  Display prompts and get user input
+___ (10 pts)  Creates one array of 400 and uses as a 2x200 array
+             - has load and store service routines
+___ (5 pts)  Can print the 2D array
+___ (15 pts)  Has an encrypt service routine
+___ (15 pts)  Has a decrype service routine
+
+___ (5 pts)  Have a complete flow chart for the program?
+___ (5 pts) Have a lab report (with formatted paragraphs/headings?
+___ (5 pts) Have required comments in the code 
+            (block personal info, line comments, register usage)
+
+[See comments for any missing part above.]
+
+
+
+Your Lab7 Score:
+___ points out of 70
+
+Comments:
+Date Graded:
+By Lab tutor/TA: 
+Tutor/TA email: 
+
+Lab7 Grading Template 
+created by Cyrus Bazeghi
+5/11/15
+Modified by Max Dunne
+************************************************************

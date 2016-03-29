@@ -1,0 +1,44 @@
+CMPE12L Sec_?? Lab7 PIC32 IO
+UCSC Winter 2016 
+*********************************************************************
+Names: 
+login@ucsc
+
+Grading Criteria
+
+Basic specifications:
+Does your code ...?
+PART A (32 points): 
+___ (9 pts) Correctly reads in the 4 switches
+___ (9 pts) Correctly displays the 4 switches to the LEDs
+___ (9 pts) Correctly reads in the 4 buttons
+___ (9 pts) Correctly displays the 4 buttons state to the LEDs
+PART B (Extra Credit) (20 points):
+___ (2 pts) Reads in the 4 switches and puts the number 1-16 into $a0
+___ (8 pts) Has a mydelay procedure which takes $a0 as an argument and delays 
+            for some based period * $a0
+___ (2 pts) uses the mydelay procedure to control the turning on and off an LED
+___ (8 pts) Does a standard pattern of turning on and off an LED and moving to the next
+            LED based upon the switches settings
+
+SHARED (14 points):
+___ (4 pts) Have required comments in the code (block personal info, line comments, register usage)
+___ (10 pts) Have a lab report which follows the directions in the lab description(with formatted paragraphs/headings?
+
+[See comments for any missing part above.]
+
+
+
+Your Lab8 Score:
+___ points out of 50
+
+Comments:
+Date Graded:
+By Lab tutor/TA: 
+Tutor/TA email: 
+
+Lab7 Grading Template 
+created by Cyrus Bazeghi
+5/25/15
+Updated by Max Dunne
+************************************************************

@@ -1,0 +1,28 @@
+Travis Takai
+CE12L-03
+1375886
+ttakai@ucsc.edu
+
+For this lab I broke down the components into 4 stages: Command input, calculating the cipher, encrypting and decrypting, and final output.
+
+Command Input:
+-Check to see if each letter is a "reserved" input
+-If not keep waiting for user input of a command
+
+Cipher Calculation:
+-Same as the last program, add each current number to multiplication by 10 of previous sum
+-In each phase the current number entered is stored, and then the previous sum is multiplied by 10
+-Current number is then added and stored as a new sum
+
+Encryption/Decryption:
+-Remove the offset from the letter (extra ascii value) to reduce letter to range of 1-26
+-Add cipher to range, and subtract by 26
+-If the number is still positive, it is within an acceptable range and has "circled" back around
+-If negative, add 26 back in to produce a valid number
+-Decryption works the same way but in reverse to produce a number that is valid
+
+Final Output:
+-Using row-major indexing, I have a given offset from start for the first and second array
+-I use a flag to determine which row stores the encrypted string and vice versa
+-Using these two indicators, I can print out all of the letters stored in the row
+-Program then circles back around to the beginning input stage

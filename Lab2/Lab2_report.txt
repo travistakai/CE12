@@ -1,0 +1,12 @@
+Lab 2 Write-up
+
+-The lab problem is to create a functional game of tic tac toe in which the user is using the given interface to try to win. The winner is aware that they won by an light lighting up and a sound accompanying it.
+
+-I created a 3x3 matrix of rotational selectors in which you turn to "2" if you want to place an O and turn it to "4" if you want to place an "X".
+
+-You take each individual case of winning (ex all top row is X's) and AND them together to see if they produce an output of 1. If so, they have won. This is fed through several OR gates since there are multiple routes to win
+
+-There are 180 transistors in total, spanning from 16 AND gates and 6 OR gates
+-I could have used boolean algebra to make the circuit much simpler but brute force is the simplest solution
+
+-In the lab  I learned that routing wires is very difficult to do effectively and that if is fairly easy to use smaller circuits to build much larger circuits. Also I learned how to use wav files and bitmaps to display things in MML.

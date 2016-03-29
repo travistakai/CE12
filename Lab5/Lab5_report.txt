@@ -1,0 +1,21 @@
+Travis Takai
+1375886
+CE12L-03
+
+Input:
+-Initially takes input through GETC and then proceeds to add/subtract specific amounts to check for 'LF', 'X', and '-'
+-Moves on if number is valid and stores in a memory location to then retrieve later
+-If character inputted is 'X' then it quits
+-If character inputted is 'LF' then move along to conversion phase
+-User is prompted with initial set of instructions
+
+Addition/Multiplication:
+-Stores number given assuming it isn't a special character in memory
+-As the number of digits increase it takes the previous total and multiplies by 10 and adds the new number to it
+-The total is then reinserted into memory for the next possible number
+
+Conversion:
+-If flag is 1, then NOT the stored total and ADD 1, then re-insert total into memory
+-If no flag, proceed to compare each mask with the given total
+-Print out either a 1 or a 0 to indicate if the number contains the corresponding bit
+-Once it is all done, return back to the initial input stage

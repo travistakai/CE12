@@ -1,0 +1,39 @@
+UCSC Fall 2015 CMPE12L Sec_?? 
+Lab5 Decimal Converter
+*********************************************************************
+Names: login@ucsc
+
+Grading Criteria
+
+Basic specifications:
+Does your code ...?
+___ (2 pts)  Print greeting message and quit when prompted?
+___ (15 pts) Converts character decimal string into a 2SC number?
+___ (15 pts) Print as a binary string?
+___ (5 pts)  Work with negative input?
+___ (10 pts) Have a good report and flow chart (with formatted paragraphs/headings?
+___ (3 pts)  Have good comments in the code
+             (block personal info, line comments, register usage)
+
+
+[See comments for any missing part above.]
+
+Extra Credit:Does you code ...?
+___ (3 pts) Print as a hexadecimal string?
+___ (2 pts) Print as a octal string?
+___ (3 pts) Convert back to Decimal and print?
+___ (2 pts) Check for valid input?
+
+Your Lab5 Score:___ points out of 50
+
+Comments:
+
+Date Graded:
+
+By Lab tutor/TA: 
+Tutor/TA email: 
+
+Lab5 Grading Template 
+created by Cyrus Bazeghi 5/7/2015
+updated  by Max Dunne
+************************************************************

@@ -1,0 +1,54 @@
+UCSC Winter 2016 CMPE12L Sec_?? Lab4 ALU Design
+*****************************************************************
+Name: 
+login@ucsc
+
+Grading Criteria
+
+Basic specifications:
+Does your code ...?
+
+ALU functions correctly and follows requirements for:
+___ (10 pts) ADD function
+___ (5 pts)  AND function
+___ (5 pts)  NOT function
+___ (2 pts)  PASS through
+___ (4 pts)  control logic to select function to perform
+___ (2 pts)  Simple overflow detection
+
+Control Logic functions correctly:
+___ (3 pts)  Loading input A and input B
+___ (3 pts)  Selecting a destination register
+___ (3 pts)  Addressing and RW logic
+
+Misc:
+___ (3 pts) Is neat and well organized?
+___ (3 pts) Uses seperate pages?
+___ (2 pts) Has required block comments on each page?
+
+Lab Report:
+___ (5 pts) Has a good write up in the lab report?
+
+[See comments for any missing part above.]
+
+
+Extra Credti
+
+___ (4 pts) Add in two's complement overlow detection, including     
+            an LED on the top sheet
+
+Your Lab4 Score:
+___ points out of 50
+
+Comments:
+
+
+Date Graded: 
+By Lab TUtor/TA: 
+TA/Tutor email: 
+
+Lab4 Grading Template 
+created by Cyrus Bazeghi
+modified by Max Dunne
+4/26/2015
+************************************************************

@@ -1,0 +1,48 @@
+UCSC Winter 2016 CMPE12L Sec_?? Lab2 Tic-Tac-Toe Game
+****************************************************************
+Names: 
+login@ucsc
+
+Grading Criteria
+
+Basic specifications:
+Does your design ... ?
+
+You can get up to the points in the ()
+
+___ (10 pts) have a clean and well layed out board?
+
+___ (5 pts) use connectors, senders/receivers and sheets/pages
+
+___ (3 pts) light up an LED when "X" wins?
+
+___ (3 pts) light up an LED when "O" wins?
+
+___ (4 pts) have required text in the schematic 
+            (name, lab, section, etc)
+
+___ (5 pts) have a lab report (with formatted paragraghs/headings and correct material)
+
+[See comments for any missing part above.]
+
+Extra Credit specifications:
+Does your design ...?
+___ (4 pt) light up an LED when a tie happens and play some sounds or do anything else cool??
+
+Your Lab2 Score:
+___ points out of 30
+
+Comments:
+
+
+
+Date Graded:
+By Lab Tutor/TA: 
+TA/Tutor email: 
+
+Lab2 Grading Template 
+created by Cyrus Bazeghi
+4/11/15
+Modified by Max Dunne
+4/10/2015
+************************************************************

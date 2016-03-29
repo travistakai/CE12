@@ -1,0 +1,34 @@
+UCSC Winter 2016 CMPE12L Sec_?? Lab3 Memories*********************************************************************
+Names: login@ucsc
+Grading Criteria
+Basic specifications:Does your lab ...?
+___ (10 pt) have a good lab write up??
+PARTA:
+___ (5 pts) correctly add an asynchronous reset to the D-latch?
+___ (3 pt) have a clean and easy to read schematic?
+___ (2 pt) have required comments on the schematic
+            (block personal info, lab number, etc)
+PARTB:
+___ (5 pts) have a 2x4 register file implemented?
+___ (5 pts) have logic to decode addresses?
+___ (5 pts) have logic to enable writes?
+___ (5 pts) have logic to enable reads?
+___ (3 pts) correctly write and read (does it work)?
+___ (2 pt) have multiple pages?
+___ (3 pt) have a clean and easy to read schematics?
+___ (2 pt) have required comments on the schematic
+            (block personal info, lab number, etc)
+[See comments for any missing part above.]
+Your Lab3 Score:
+___ points out of 50
+Comments:
+
+Date Graded:
+
+By Lab Tutor: 
+
+Tutor email: 
+
+Lab3 Grading Template 
+created by Cyrus Bazeghi 4/18/2015************************************************************
+updated by Max Dunne 10/11/2015************************************************************

@@ -1,0 +1,13 @@
+Travis Takai
+ttakai@ucsc.edu
+1375886
+Lab #1
+CMPE 12L-03
+
+-For the original logic design I used the "brute force" method of finding where the LED would be active only during that specific state
+-38 transistors in the original circuit
+-The original design can be reduced down to only using two NOT's, two AND's, and a single OR for the final addition.
+-Assuming the improved design is the NAND circuit, there are 72 transistors
+-AND and OR gates are just NAND and NOR gates with and inverter at the end
+-To reduce the circuit I used boolean logic and reduced from A'B'C + A'B'C + A'BC to A'B' + A'C. Now the circuit only has two inverters, two AND gates, and one OR gate
+-My guess is that the random number generator uses noise within the circuit to produce a number. Therefore it is using given resources to produce what appears to be random.

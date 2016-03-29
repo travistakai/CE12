@@ -1,0 +1,16 @@
+Lab 4 Write Up
+Travis Takai
+CE12L-03
+2/21/16
+
+The construction of the ALU requires that the initial memory locations be written to by either the ALU's output or the keypad input.
+Memory is then written a value to, and reflects so with a set of LED's attached to their sr latches.
+Next, Latch A and Latch B are then able to read values from memory using the write enable switches.
+Once they are filled, they perform an operation depending on the opcode specified.
+Finally, the ALU's output can be stored back in a memory location or are overwritten when doing another operation.
+All latches have select lines as well as the muxs in order to only perform the specified operation.
+All latches are equipped with reset logic as well.
+
+The overflow detection is created by checking if the MSB's are both being used or are not being used. 
+If they are, the signal is ANDed with the final carryout.
+If not, the signal is ANDed with the 3rd carryout as to check if the sign has changed from positive to negative.

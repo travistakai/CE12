@@ -1,0 +1,31 @@
+UCSC Winter 2016 CMPE12L Sec 03 
+Lab3 Memories
+*********************************************************************
+
+Travis Takai
+ttakai@ucsc.edu
+1375886
+
+Part A
+Truth Table:
+D CLK Res| Q Q'
+0  0   0 | 0 1
+0  0   1 | 0 1
+0  1   0 | 0 1
+1  0   0 | 0 1
+0  1   1 | 0 1
+1  0   1 | 0 1
+1  1   0 | 1 0
+1  1   1 | 0 1
+
+Part B:
+-I use a switch to delineate which address I am writing to and using the Clock to enable the writing.
+-All reading/writing is controlled by the clock functionality
+-Reset enables reset as well as clock so it can adjust the numbers
+
+Other Questions:
+-The word size is 4 bits
+-Address space is 2^1 or 2
+-Addressability is 4 bits
+-Data moves from the input hex keypad to the first d latches which store the users input. Then, they move to the 2x4 registers if the right combination of write/address are given.
+Once the user selects read and clock, the stored input is transmitted to the final output on the 7 segment display. All of this is through combinations of read/write, address, and clock.

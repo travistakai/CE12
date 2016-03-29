@@ -1,0 +1,18 @@
+Lab 7 Write Up
+Travis Takai
+1375886
+ttakai@ucsc.edu
+
+1) The idea of the program is that you have to retrieve the values being produced by the buttons (PORTD and PORTF) and turn on corresponding
+	bits for the LEDs (PORTE). In order to do so, you load the values from PORTD and PORTF via lw. Then AND the values with a mask to see if
+	any bits are 1. Write the value to the PORTE address to translate button values to LEDs.
+
+2) Initially I didn't understand that the last button's value was being stored in PORTF so the LED for the last button was always turned on. I then switched the 		mask from x00F0 to x00E0 so that it would omit the incorrect value being read. Instead I had to mask the left shifted value from PORTF to turn on the correct 		value incorrect in PORTE
+
+3) Each bit in the port represents a given position for LEDs or buttons and is either 1 or 0. For example, if the value is 0x1 then the binary translation is 0001. 	This means that the peripheral at bit 0 is producing a 1 output. This could mean that either the corresponding LED is on or the button/switch is being pressed.
+	Each position of a button/switch can be mapped to a corresponding LED as long as the values align correctly.
+
+4) A hardware timer is a physical device on the microcontroller that creates a delay for the execution of the program or output. In a software delay all of the
+	processors computing power is devoted to creating a delay for the program rather than executing a functional part of the program
+
+5) If a nop is not placed after a branch it will execute the next instruction after the branch
